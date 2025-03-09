@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Min Personliga & Arbets Hemsida</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1 id="welcome-text">Välkommen till min sida!</h1>
+    </header>
+    
+    <section id="about">
+        <h2>Om mig</h2>
+        <p>Jag är en [yrkesroll] med passion för [ditt expertområde].</p>
+        <button onclick="toggleMoreInfo()">Läs mer</button>
+        <p id="more-info" style="display: none;">Här kan du lägga till mer information om dig själv.</p>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="gallery">
+            <div class="project">Projekt 1</div>
+            <div class="project">Projekt 2</div>
+            <div class="project">Projekt 3</div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Maila mig på: <a href="mailto:dinmail@example.com">dinmail@example.com</a></p>
+        <p>LinkedIn: <a href="#">linkedin.com/in/dittnamn</a></p>
+    </section>
+    
+</body>
+</html>
